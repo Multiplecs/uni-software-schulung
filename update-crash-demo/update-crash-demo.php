@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Demo-Plugin Update-Crash
+ * Plugin Name: Update Crash Demo
  * Description: Demo-Plugin mit GitHub-Update-Funktion.
  * Version: 1.0.0
  * Author: Multiplecs e. U.
@@ -27,6 +27,4 @@ $updateChecker = PucFactory::buildUpdateChecker(
 $updateChecker->setBranch('main');
 
 // === Falls privates Repo ===
- $updateChecker->setAuthentication('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');
-
- testfunction();
+$updateChecker->setAuthentication('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');
