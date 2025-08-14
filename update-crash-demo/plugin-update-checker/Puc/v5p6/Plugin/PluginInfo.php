@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
+namespace plugin-update-checker\Puc\v5p6\Plugin;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\Metadata;
+use checker\Puc\v5p6\Metadata;
 
 if ( !class_exists(PluginInfo::class, false) ):
 

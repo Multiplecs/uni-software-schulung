@@ -1,15 +1,15 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6\DebugBar;
+namespace plugin-update-checker\Puc\v5p6\DebugBar;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\PucFactory;
-use YahnisElsts\PluginUpdateChecker\v5p6\UpdateChecker;
+use pluginuse checker\Puc\v5p6\PucFactory;
+use checker\Puc\v5p6\UpdateChecker;
 
 if ( !class_exists(Extension::class, false) ):
 
 	class Extension {
 		const RESPONSE_BODY_LENGTH_LIMIT = 4000;
 
-		/** @var UpdateChecker */
+		/** @var checker\Puc\v5p6\UpdateChecker */
 		protected $updateChecker;
 		protected $panelClass = Panel::class;
 

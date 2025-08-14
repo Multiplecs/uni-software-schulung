@@ -4,9 +4,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6afdf27-f46a-4530-82a4-6507b6b45ffe" name="Changes" comment="v1.0.1 &gt; Demo-Plugin Fehler">
+    <list default="true" id="d6afdf27-f46a-4530-82a4-6507b6b45ffe" name="Changes" comment="v1.0.2 &gt; Demo-Plugin Fehler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update-crash-demo/update-crash-demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/update-crash-demo/update-crash-demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5/PucFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5/PucFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/DebugBar/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/DebugBar/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/DebugBar/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/DebugBar/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/DebugBar/PluginExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/DebugBar/PluginExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/DebugBar/PluginPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/DebugBar/PluginPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/DebugBar/ThemePanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/DebugBar/ThemePanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/InstalledPackage.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/InstalledPackage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Metadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Metadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/OAuthSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/OAuthSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Plugin/Package.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Plugin/Package.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Plugin/PluginInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Plugin/PluginInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Plugin/Ui.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Plugin/Ui.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Plugin/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Plugin/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Plugin/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Plugin/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/PucFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/PucFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Scheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Scheduler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/StateStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/StateStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Theme/Package.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Theme/Package.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Theme/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Theme/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Theme/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Theme/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/UpgraderStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/UpgraderStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/BaseChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/BaseChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/BitBucketApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/BitBucketApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/GitHubApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/GitHubApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/GitLabApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/GitLabApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/PluginUpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/PluginUpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/Reference.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/Reference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/ReleaseAssetSupport.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/ReleaseAssetSupport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/ReleaseFilteringFeature.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/ReleaseFilteringFeature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/ThemeUpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/ThemeUpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/Vcs/VcsCheckerMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/Vcs/VcsCheckerMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/Puc/v5p6/WpCliCheckTrigger.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/Puc/v5p6/WpCliCheckTrigger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/css/puc-debug-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/css/puc-debug-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/js/debug-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/js/debug-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ca.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ca.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ca.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ca.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-cs_CZ.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-cs_CZ.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-cs_CZ.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-cs_CZ.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-da_DK.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-da_DK.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-da_DK.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-da_DK.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-de_DE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-de_DE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-de_DE.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-de_DE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-el.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-el.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-el.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-el.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_AR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_AR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_AR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_AR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CL.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CL.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CL.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CO.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CO.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CO.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CO.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_CR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_CR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_DO.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_DO.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_DO.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_DO.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_ES.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_ES.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_GT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_GT.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_GT.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_GT.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_HN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_HN.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_HN.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_HN.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_MX.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_MX.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_MX.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_MX.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_PE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_PE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_PE.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_PE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_PR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_PR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_PR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_PR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_UY.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_UY.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_UY.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_UY.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_VE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_VE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-es_VE.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-es_VE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fa_IR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fa_IR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fa_IR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fa_IR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fr_CA.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fr_CA.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fr_CA.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fr_CA.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fr_FR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-hu_HU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-hu_HU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-hu_HU.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-hu_HU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-it_IT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-it_IT.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-it_IT.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-it_IT.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ja.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ja.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ja.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ja.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-nl_BE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-nl_BE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-nl_BE.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-nl_BE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-nl_NL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-nl_NL.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-nl_NL.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-nl_NL.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-pt_BR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-pt_BR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-pt_BR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-pt_BR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ru_RU.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sl_SI.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sl_SI.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sl_SI.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sl_SI.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sr_RS.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sr_RS.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sr_RS.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sr_RS.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sv_SE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sv_SE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-sv_SE.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-sv_SE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-tr_TR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-tr_TR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-tr_TR.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-tr_TR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-uk_UA.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-uk_UA.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-uk_UA.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-uk_UA.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-zh_CN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-zh_CN.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker-zh_CN.po" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker-zh_CN.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/languages/plugin-update-checker.pot" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/languages/plugin-update-checker.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/load-v5p6.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/load-v5p6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/plugin-update-checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/plugin-update-checker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/vendor/Parsedown.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/vendor/Parsedown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/vendor/ParsedownModern.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/vendor/ParsedownModern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/vendor/PucReadmeParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/plugin-update-checker/vendor/PucReadmeParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/update-crash-demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/uni-software-schulung/uni-software-schulung.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +160,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects_wordpress/unisoftware_schulung&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;rsyncConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/projects_wordpress/unisoftware_schulung/uni-software-schulung/plugin-update-checker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "rsyncConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects_wordpress\unisoftware_schulung\uni-software-schulung\plugin-update-checker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects_wordpress\unisoftware_schulung\uni-software-schulung" />
+      <recent name="C:\projects_wordpress\unisoftware_schulung" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755154547806</updated>
-      <workItem from="1755154549212" duration="7263000" />
+      <workItem from="1755154549212" duration="8461000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0.0 &gt; Demo-Plugin">
       <option name="closed" value="true" />
@@ -114,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755169660065</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1.0.2 &gt; Demo-Plugin Fehler">
+      <option name="closed" value="true" />
+      <created>1755169861759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755169861759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0.0 &gt; Demo-Plugin" />
     <MESSAGE value="v1.0.1 &gt; Demo-Plugin Fehler" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.1 &gt; Demo-Plugin Fehler" />
+    <MESSAGE value="v1.0.2 &gt; Demo-Plugin Fehler" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0.2 &gt; Demo-Plugin Fehler" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

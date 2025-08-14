@@ -1,5 +1,5 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
 if ( !class_exists(OAuthSignature::class, false) ):
 

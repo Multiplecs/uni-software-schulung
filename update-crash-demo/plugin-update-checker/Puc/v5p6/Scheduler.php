@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-if ( !class_exists(Scheduler::class, false) ):
+use pluginuse pluginuse pluginuse pluginuse pluginif ( !class_exists(Scheduler::class, false) ):
 
 	/**
 	 * The scheduler decides when and how often to check for updates.
@@ -135,7 +135,7 @@ if ( !class_exists(Scheduler::class, false) ):
 
 			//Filter out notifications of upgrades that should have no bearing upon whether or not our
 			//current info is up-to-date.
-			if ( is_a($this->updateChecker, Theme\UpdateChecker::class) ) {
+			if ( is_a($this->updateChecker, checker\Puc\v5p6\Theme\UpdateChecker::class) ) {
 				if ( 'theme' !== $upgradeInfo['type'] || !isset($upgradeInfo['themes']) ) {
 					return;
 				}
@@ -149,7 +149,7 @@ if ( !class_exists(Scheduler::class, false) ):
 				}
 			}
 
-			if ( is_a($this->updateChecker, Plugin\UpdateChecker::class) ) {
+			if ( is_a($this->updateChecker, checker\Puc\v5p6\Plugin\UpdateChecker::class) ) {
 				if ( 'plugin' !== $upgradeInfo['type'] || !isset($upgradeInfo['plugins']) ) {
 					return;
 				}
@@ -195,8 +195,8 @@ if ( !class_exists(Scheduler::class, false) ):
 				if ( !(
 					class_exists(Utils::class)
 					&& class_exists(Metadata::class)
-					&& class_exists(Plugin\Update::class)
-					&& class_exists(Theme\Update::class)
+					&& class_exists(checker\Puc\v5p6\Plugin\Update::class)
+					&& class_exists(checker\Puc\v5p6\Theme\Update::class)
 				) ) {
 					return;
 				}

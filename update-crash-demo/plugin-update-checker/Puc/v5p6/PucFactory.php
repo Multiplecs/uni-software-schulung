@@ -1,8 +1,8 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
+use pluginuse YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
 use YahnisElsts\PluginUpdateChecker\v5p6\Theme;
 use YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
 
@@ -13,7 +13,7 @@ if ( !class_exists(PucFactory::class, false) ):
 	 *
 	 * When multiple versions of the same class have been loaded (e.g. PluginUpdateChecker 4.0
 	 * and 4.1), this factory will always use the latest available minor version. Register class
-	 * versions by calling {@link PucFactory::addVersion()}.
+	 * versions by calling {@link checker\Puc\v5\PucFactory::addVersion()}.
 	 *
 	 * At the moment it can only build instances of the UpdateChecker class. Other classes are
 	 * intended mainly for internal use and refer directly to specific implementations.
@@ -30,7 +30,8 @@ if ( !class_exists(PucFactory::class, false) ):
 		 *
 		 * @param string $fullPath Full path to the main plugin file or the theme's style.css.
 		 * @param array $args Optional arguments. Keys should match the argument names of the buildUpdateChecker() method.
-		 * @return Plugin\UpdateChecker|Theme\UpdateChecker|Vcs\BaseChecker
+		 *
+		 * @return checker\Puc\v5p6\Plugin\UpdateChecker|checker\Puc\v5p6\Theme\UpdateChecker|checker\Puc\v5p6\Vcs\BaseChecker
 		 */
 		public static function buildFromHeader($fullPath, $args = array()) {
 			$fullPath = self::normalizePath($fullPath);
@@ -60,15 +61,16 @@ if ( !class_exists(PucFactory::class, false) ):
 		 * This method automatically detects if you're using it for a plugin or a theme and chooses
 		 * the appropriate implementation for your update source (JSON file, GitHub, BitBucket, etc).
 		 *
-		 * @see UpdateChecker::__construct
-		 *
 		 * @param string $metadataUrl The URL of the metadata file, a GitHub repository, or another supported update source.
 		 * @param string $fullPath Full path to the main plugin file or to the theme directory.
 		 * @param string $slug Custom slug. Defaults to the name of the main plugin file or the theme directory.
 		 * @param int $checkPeriod How often to check for updates (in hours).
 		 * @param string $optionName Where to store bookkeeping info about update checks.
 		 * @param string $muPluginFile The plugin filename relative to the mu-plugins directory.
-		 * @return Plugin\UpdateChecker|Theme\UpdateChecker|Vcs\BaseChecker
+		 *
+		 * @return checker\Puc\v5p6\Plugin\UpdateChecker|checker\Puc\v5p6\Theme\UpdateChecker|checker\Puc\v5p6\Vcs\BaseChecker
+         * @see UpdateChecker::__construct
+		 *
 		 */
 		public static function buildUpdateChecker($metadataUrl, $fullPath, $slug = '', $checkPeriod = 12, $optionName = '', $muPluginFile = '') {
 			$fullPath = self::normalizePath($fullPath);

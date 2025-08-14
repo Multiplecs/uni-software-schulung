@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
+namespace plugin-update-checker\Puc\v5p6\Plugin;
 
-if ( !class_exists(Ui::class, false) ):
+use pluginif ( !class_exists(Ui::class, false) ):
 	/**
 	 * Additional UI elements for plugins.
 	 */

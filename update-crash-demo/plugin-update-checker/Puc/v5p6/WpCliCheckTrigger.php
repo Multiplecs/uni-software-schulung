@@ -1,8 +1,8 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-use WP_CLI;
+use pluginuse pluginuse WP_CLI;
 
 /**
  * Triggers an update check when relevant WP-CLI commands are executed.

@@ -1,8 +1,9 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-use Parsedown;
+use checker\vendor\Parsedown;
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse plugin
 
 if ( !class_exists(GitHubApi::class, false) ):
 

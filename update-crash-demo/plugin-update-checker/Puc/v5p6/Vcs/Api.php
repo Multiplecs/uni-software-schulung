@@ -1,9 +1,10 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-use Parsedown;
-use PucReadmeParser;
+use checker\vendor\Parsedown;
+use checker\vendor\PucReadmeParser;
+use pluginuse pluginuse pluginuse plugin
 
 if ( !class_exists(Api::class, false) ):
 

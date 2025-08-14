@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-if ( !class_exists(InstalledPackage::class, false) ):
+use pluginif ( !class_exists(InstalledPackage::class, false) ):
 
 	/**
 	 * This class represents a currently installed plugin or theme.

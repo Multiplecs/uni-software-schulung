@@ -1,13 +1,13 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6\DebugBar;
+namespace plugin-update-checker\Puc\v5p6\DebugBar;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\Plugin\UpdateChecker;
+use pluginuse checker\Puc\v5p6\Plugin\UpdateChecker;
 
 if ( !class_exists(PluginPanel::class, false) ):
 
 	class PluginPanel extends Panel {
 		/**
-		 * @var UpdateChecker
+		 * @var checker\Puc\v5p6\Plugin\UpdateChecker
 		 */
 		protected $updateChecker;
 

@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-use stdClass;
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse stdClass;
 use WP_Error;
 
 if ( !class_exists(UpdateChecker::class, false) ):
@@ -79,7 +79,7 @@ if ( !class_exists(UpdateChecker::class, false) ):
 		protected $cachedMetadataHost = 0;
 
 		/**
-		 * @var DebugBar\Extension|null
+		 * @var checker\Puc\v5p6\DebugBar\Extension|null
 		 */
 		protected $debugBarExtension = null;
 
@@ -1124,13 +1124,13 @@ if ( !class_exists(UpdateChecker::class, false) ):
 		}
 
 		protected function createDebugBarExtension() {
-			return new DebugBar\Extension($this);
+			return new checker\Puc\v5p6\DebugBar\Extension($this);
 		}
 
 		/**
 		 * Display additional configuration details in the Debug Bar panel.
 		 *
-		 * @param DebugBar\Panel $panel
+		 * @param checker\Puc\v5p6\DebugBar\Panel $panel
 		 */
 		public function onDisplayConfiguration($panel) {
 			//Do nothing. Subclasses can use this to add additional info to the panel.

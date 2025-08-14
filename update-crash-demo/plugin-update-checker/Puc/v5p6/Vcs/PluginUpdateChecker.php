@@ -1,12 +1,12 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
+use pluginuse pluginuse pluginuse YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
 
 if ( !class_exists(PluginUpdateChecker::class, false) ):
 
-	class PluginUpdateChecker extends Plugin\UpdateChecker implements BaseChecker {
+	class PluginUpdateChecker extends checker\Puc\v5p6\Plugin\UpdateChecker implements BaseChecker {
 		use VcsCheckerMethods;
 
 		/**
@@ -39,7 +39,7 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 			$api = $this->api;
 			$api->setLocalDirectory($this->package->getAbsoluteDirectoryPath());
 
-			$info = new Plugin\PluginInfo();
+			$info = new checker\Puc\v5p6\Plugin\PluginInfo();
 			$info->filename = $this->pluginFile;
 			$info->slug = $this->slug;
 
@@ -138,8 +138,8 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		/**
 		 * Copy plugin metadata from a file header to a Plugin Info object.
 		 *
-		 * @param array $fileHeader
-		 * @param Plugin\PluginInfo $pluginInfo
+		 * @param array                              $fileHeader
+		 * @param checker\Puc\v5p6\Plugin\PluginInfo $pluginInfo
 		 */
 		protected function setInfoFromHeader($fileHeader, $pluginInfo) {
 			$headerToPropertyMap = array(
@@ -171,8 +171,8 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		/**
 		 * Copy plugin metadata from the remote readme.txt file.
 		 *
-		 * @param string $ref GitHub tag or branch where to look for the readme.
-		 * @param Plugin\PluginInfo $pluginInfo
+		 * @param string                             $ref GitHub tag or branch where to look for the readme.
+		 * @param checker\Puc\v5p6\Plugin\PluginInfo $pluginInfo
 		 */
 		protected function setInfoFromRemoteReadme($ref, $pluginInfo) {
 			$readme = $this->api->getRemoteReadme($ref);
@@ -205,7 +205,7 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		 * and file names are described here:
 		 * @link https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons
 		 *
-		 * @param Plugin\PluginInfo $pluginInfo
+		 * @param checker\Puc\v5p6\Plugin\PluginInfo $pluginInfo
 		 */
 		protected function setIconsFromLocalAssets($pluginInfo) {
 			$icons = $this->getLocalAssetUrls(array(
@@ -234,7 +234,7 @@ if ( !class_exists(PluginUpdateChecker::class, false) ):
 		 * and file names are described here:
 		 * @link https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers
 		 *
-		 * @param Plugin\PluginInfo $pluginInfo
+		 * @param checker\Puc\v5p6\Plugin\PluginInfo $pluginInfo
 		 */
 		protected function setBannersFromLocalAssets($pluginInfo) {
 			$banners = $this->getLocalAssetUrls(array(

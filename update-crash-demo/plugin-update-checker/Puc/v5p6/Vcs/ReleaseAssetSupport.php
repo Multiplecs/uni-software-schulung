@@ -1,8 +1,8 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-if ( !trait_exists(ReleaseAssetSupport::class, false) ) :
+use pluginuse pluginif ( !trait_exists(ReleaseAssetSupport::class, false) ) :
 
 	trait ReleaseAssetSupport {
 		/**

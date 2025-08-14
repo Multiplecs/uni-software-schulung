@@ -1,10 +1,10 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Plugin;
+namespace plugin-update-checker\Puc\v5p6\Plugin;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\InstalledPackage;
-use YahnisElsts\PluginUpdateChecker\v5p6\UpdateChecker as BaseUpdateChecker;
-use YahnisElsts\PluginUpdateChecker\v5p6\Scheduler;
-use YahnisElsts\PluginUpdateChecker\v5p6\DebugBar;
+use checker\Puc\v5p6\InstalledPackage;
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse checker\Puc\v5p6\UpdateChecker as BaseUpdateChecker;
+use checker\Puc\v5p6\Scheduler;
+use pluginuse pluginuse pluginuse YahnisElsts\PluginUpdateChecker\v5p6\DebugBar;
 
 if ( !class_exists(UpdateChecker::class, false) ):
 
@@ -82,7 +82,8 @@ if ( !class_exists(UpdateChecker::class, false) ):
 		 * Create an instance of the scheduler.
 		 *
 		 * @param int $checkPeriod
-		 * @return Scheduler
+		 *
+		 * @return checker\Puc\v5p6\Scheduler
 		 */
 		protected function createScheduler($checkPeriod) {
 			$scheduler = new Scheduler($this, $checkPeriod, array('load-plugins.php'));
@@ -402,13 +403,13 @@ if ( !class_exists(UpdateChecker::class, false) ):
 		}
 
 		protected function createDebugBarExtension() {
-			return new DebugBar\PluginExtension($this);
+			return new checker\Puc\v5p6\DebugBar\PluginExtension($this);
 		}
 
 		/**
 		 * Create a package instance that represents this plugin or theme.
 		 *
-		 * @return InstalledPackage
+		 * @return checker\Puc\v5p6\InstalledPackage
 		 */
 		protected function createInstalledPackage() {
 			return new Package($this->pluginAbsolutePath, $this);

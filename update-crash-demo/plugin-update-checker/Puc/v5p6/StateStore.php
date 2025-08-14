@@ -1,7 +1,7 @@
 <?php
-namespace YahnisElsts\PluginUpdateChecker\v5p6;
+namespace plugin-update-checker\Puc\v5p6;
 
-if ( !class_exists(StateStore::class, false) ):
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginif ( !class_exists(StateStore::class, false) ):
 
 	class StateStore {
 		/**

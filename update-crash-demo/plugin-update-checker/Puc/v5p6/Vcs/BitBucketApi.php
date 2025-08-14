@@ -1,15 +1,16 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\OAuthSignature;
-use YahnisElsts\PluginUpdateChecker\v5p6\Utils;
+use checker\Puc\v5p6\OAuthSignature;
+use checker\Puc\v5p6\Utils;
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse plugin
 
 if ( !class_exists(BitBucketApi::class, false) ):
 
 	class BitBucketApi extends Api {
 		/**
-		 * @var OAuthSignature
+		 * @var checker\Puc\v5p6\OAuthSignature
 		 */
 		private $oauth = null;
 

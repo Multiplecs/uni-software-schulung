@@ -1,8 +1,8 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-if ( !trait_exists(ReleaseFilteringFeature::class, false) ) :
+use pluginuse pluginuse pluginuse pluginif ( !trait_exists(ReleaseFilteringFeature::class, false) ) :
 
 	trait ReleaseFilteringFeature {
 		/**

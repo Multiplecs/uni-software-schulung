@@ -1,13 +1,13 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-use YahnisElsts\PluginUpdateChecker\v5p6\Theme;
-use YahnisElsts\PluginUpdateChecker\v5p6\Utils;
+use pluginuse pluginuse pluginuse YahnisElsts\PluginUpdateChecker\v5p6\Theme;
+use checker\Puc\v5p6\Utils;
 
 if ( !class_exists(ThemeUpdateChecker::class, false) ):
 
-	class ThemeUpdateChecker extends Theme\UpdateChecker implements BaseChecker {
+	class ThemeUpdateChecker extends checker\Puc\v5p6\Theme\UpdateChecker implements BaseChecker {
 		use VcsCheckerMethods;
 
 		/**
@@ -33,7 +33,7 @@ if ( !class_exists(ThemeUpdateChecker::class, false) ):
 			$api = $this->api;
 			$api->setLocalDirectory($this->package->getAbsoluteDirectoryPath());
 
-			$update = new Theme\Update();
+			$update = new checker\Puc\v5p6\Theme\Update();
 			$update->slug = $this->slug;
 
 			//Figure out which reference (tag or branch) we'll use to get the latest version of the theme.

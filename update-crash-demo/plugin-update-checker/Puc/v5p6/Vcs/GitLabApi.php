@@ -1,8 +1,8 @@
 <?php
 
-namespace YahnisElsts\PluginUpdateChecker\v5p6\Vcs;
+namespace plugin-update-checker\Puc\v5p6\Vcs;
 
-if ( !class_exists(GitLabApi::class, false) ):
+use pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginuse pluginif ( !class_exists(GitLabApi::class, false) ):
 
 	class GitLabApi extends Api {
 		use ReleaseAssetSupport;
