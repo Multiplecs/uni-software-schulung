@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6afdf27-f46a-4530-82a4-6507b6b45ffe" name="Changes" comment="v1.0.0 &gt; Demo-Plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update-crash-demo/plugin-update-checker/plugin-update-checker.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/update-crash-demo/update-crash-demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/update-crash-demo/update-crash-demo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755154547806</updated>
-      <workItem from="1755154549212" duration="6347000" />
+      <workItem from="1755154549212" duration="7082000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0.0 &gt; Demo-Plugin">
       <option name="closed" value="true" />
@@ -98,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755168562496</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v1.0.0 &gt; Demo-Plugin">
+      <option name="closed" value="true" />
+      <created>1755168897753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755168897753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
